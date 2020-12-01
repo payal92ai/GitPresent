@@ -16,4 +16,9 @@ public class Test3 {
 		System.out.println("m");
 	}
 	
+	@Test
+	public void random11() {
+		System.out.println("m");
+	}
+	
 }

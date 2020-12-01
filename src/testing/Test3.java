@@ -17,7 +17,7 @@ public class Test3 {
 	}
 	
 	@Test
-	public void random11() {
+	public void random12() {
 		System.out.println("m");
 	}
 	

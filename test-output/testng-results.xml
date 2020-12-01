@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29" started-at="2020-09-24T11:09:50Z" finished-at="2020-09-24T11:09:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29" started-at="2020-09-24T11:09:50Z" finished-at="2020-09-24T11:09:50Z">
+      <class name="testing.Test1">
+        <test-method status="PASS" signature="random()[pri:0, instance:testing.Test1@48eff760]" name="random" duration-ms="8" started-at="2020-09-24T11:09:50Z" finished-at="2020-09-24T11:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- random -->
+        <test-method status="PASS" signature="random2()[pri:0, instance:testing.Test1@48eff760]" name="random2" duration-ms="1" started-at="2020-09-24T11:09:50Z" finished-at="2020-09-24T11:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- random2 -->
+      </class> <!-- testing.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

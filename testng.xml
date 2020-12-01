@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="First Screen">
+  <groups>
+  <run>
+  <include name="Smoke"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="testing.Test1"/>
+        <class name = "testing.Test2"> 
+        <methods>
+        <exclude name="random3"></exclude>
+              </methods>
+        </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Second screen">
+  <classes>
+      <class name="testing.Test4"/>
+        <class name = "testing.Test3"> 
+        </class>
+    </classes>
+  
+  
+  
+  
+  </test>
+</suite> <!-- Suite -->

@@ -11,4 +11,9 @@ public class Test3 {
 	public void random6() {
 		System.out.println("Security");
 	}
+	@Test
+	public void random10() {
+		System.out.println("m");
+	}
+	
 }
